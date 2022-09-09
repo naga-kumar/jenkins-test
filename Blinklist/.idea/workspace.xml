@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e286a399-90f6-462d-aec2-c325d3cc85db" name="Changes" comment="Changes related to unit testing.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zemosolabs/AppTest.java" afterDir="false" />
+    </list>
+    <list id="1753ab37-d6f0-48f4-b826-f69839a44c7d" name="ignore changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/a/b/ab9ece1a7ba30b4fd6d135e5b3a7692245733c8d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/b/d/bd9e239faf99a31dfa2d7d1bd0996ff71df76199" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/configuration/Swagger2UiConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/dto/BookDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/dto/CategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/repository/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/service/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/coverage-reports/jacoco-unit.exec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zemosolabs.controller.BookControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.zemosolabs.controller.BookControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zemosolabs/controller/BookControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Blinklist-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Blinklist-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Blinklist-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zemosolabs/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zemosolabs/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zemosolabs/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/repository/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zemosolabs/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zemosolabs/service/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zemosolabs/service/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zemosolabs/utils/CustomBookException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2DyxTOX0XA9ooPpxdlXIwMRWig7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nagak/LDP/BackEnd/naga_kumar_ldp/v2/naga_kumar_ldp/Blinklist/src/test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/zemosolabs/controller" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/zemosolabs" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/zemosolabs/service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/com.zemoso" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zemosolabs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zemosolabs.service" />
+      <recent name="com.zemosolabs.controller" />
+      <recent name="com.zemosolabs.configuration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CategoryControllerTest.testGetCategory">
+    <configuration name="BookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Blinklist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemosolabs.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zemosolabs.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zemosolabs.controller.BookControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.testDeleteBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Blinklist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemosolabs.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zemosolabs.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zemosolabs.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.testUpdateBookWithBookDtoObj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Blinklist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemosolabs.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zemosolabs.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zemosolabs.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="testUpdateBookWithBookDtoObj" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Blinklist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemosolabs.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zemosolabs.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zemosolabs.controller.CategoryControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryControllerTest.testGetCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Blinklist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemosolabs.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zemosolabs.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zemosolabs.controller.CategoryControllerTest" />
+      <option name="METHOD_NAME" value="testGetCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BookControllerTest.testDeleteBook" />
+      <item itemvalue="JUnit.BookControllerTest.testUpdateBookWithBookDtoObj" />
+      <item itemvalue="JUnit.CategoryControllerTest.testGetCategory" />
+      <item itemvalue="JUnit.BookControllerTest" />
+      <item itemvalue="JUnit.CategoryControllerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CategoryControllerTest.testGetCategory" />
+        <item itemvalue="JUnit.CategoryControllerTest" />
+        <item itemvalue="JUnit.BookControllerTest" />
+        <item itemvalue="JUnit.BookControllerTest.testUpdateBookWithBookDtoObj" />
+        <item itemvalue="JUnit.BookControllerTest.testDeleteBook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e286a399-90f6-462d-aec2-c325d3cc85db" name="Changes" comment="" />
+      <changelist id="1753ab37-d6f0-48f4-b826-f69839a44c7d" name="ignore changes" comment="" />
+      <created>1661685132598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661685132598</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Changes related to unit testing.">
+      <created>1661747481791</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661747481791</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changes related to unit testing.">
+      <created>1661752567415</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661752567415</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes related to unit testing.">
+      <created>1661771154609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661771154609</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes related to unit testing.">
+      <created>1661773556096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661773556096</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes related to unit testing.">
+      <created>1661773963752</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661773963752</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changes related to unit testing.">
+      <created>1661774335330</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661774335330</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changes related to unit testing.">
+      <created>1661775795213</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661775795213</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changes related to unit testing.">
+      <created>1661838631200</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661838631200</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changes related to unit testing.">
+      <created>1661839910027</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661839910027</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changes related to unit testing.">
+      <created>1661841324028</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661841324028</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changes related to unit testing.">
+      <created>1661842517420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661842517420</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changes related to unit testing.">
+      <created>1661845314292</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661845314292</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changes related to unit testing.">
+      <created>1661846347057</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661846347057</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Changes related to unit testing.">
+      <created>1661847462607</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661847462607</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Changes related to unit testing.">
+      <created>1661848269867</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661848269867</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changes related to unit testing.">
+      <created>1661852760196</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661852760196</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Changes related to unit testing.">
+      <created>1661853224001</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661853224001</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changes related to unit testing.">
+      <created>1661853383339</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661853383339</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Changes related to unit testing.">
+      <created>1661854029432</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1661854029432</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Changes related to unit testing.">
+      <created>1661854522934</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661854522934</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changes related to unit testing.">
+      <created>1661854850337</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1661854850337</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Changes related to unit testing.">
+      <created>1661855346231</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1661855346231</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changes related to unit testing.">
+      <created>1661963022619</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1661963022619</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Changes related to unit testing.">
+      <created>1661963852819</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1661963852819</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Changes related to unit testing.">
+      <created>1661964468395</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1661964468395</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Changes related to unit testing.">
+      <created>1661964883452</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1661964883452</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Changes related to unit testing.">
+      <created>1661965334340</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1661965334340</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Changes related to unit testing.">
+      <created>1661965508383</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1661965508383</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Changes related to unit testing.">
+      <created>1662013424090</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1662013424090</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Changes related to unit testing.">
+      <created>1662015420514</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1662015420514</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Changes related to unit testing.">
+      <created>1662016050141</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662016050141</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Changes related to unit testing.">
+      <created>1662016299777</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1662016299777</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Changes related to unit testing.">
+      <created>1662016544225</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1662016544225</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Changes related to unit testing.">
+      <created>1662017011684</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662017011684</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Changes related to unit testing.">
+      <created>1662017244582</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1662017244582</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Changes related to unit testing.">
+      <created>1662017439609</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1662017439609</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Changes related to unit testing.">
+      <created>1662017607887</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1662017607887</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Changes related to unit testing.">
+      <created>1662019828152</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1662019828152</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Changes related to unit testing.">
+      <created>1662020849548</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1662020849548</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Changes related to unit testing.">
+      <created>1662021744252</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1662021744252</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Changes related to unit testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes related to unit testing." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/service/CategoryServiceImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/service/CategoryServiceImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/service/CategoryServiceImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/service/BookServiceImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/service/BookServiceImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/service/BookServiceImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/controller/CategoryController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/controller/CategoryController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/controller/BookController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zemosolabs/service/BookServiceImpl.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/zemosolabs/service/BookServiceImplTest.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/zemosolabs/service/CategoryServiceImplTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryControllerTest_testDeleteCategory.ic" NAME="CategoryControllerTest.testDeleteCategory Coverage Results" MODIFIED="1661772145314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_testGetBooks.ic" NAME="BookControllerTest.testGetBooks Coverage Results" MODIFIED="1661840278621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest__2_.ic" NAME="BookControllerTest (2) Coverage Results" MODIFIED="1661840770466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_testUpdateBook.ic" NAME="BookControllerTest.testUpdateBook Coverage Results" MODIFIED="1661841273925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceTest_deleteCategoryByName.ic" NAME="CategoryServiceTest.deleteCategoryByName Coverage Results" MODIFIED="1661765887830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceImplTest_testValidateBook.ic" NAME="BookServiceImplTest.testValidateBook Coverage Results" MODIFIED="1661854829517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceTest.ic" NAME="BookServiceTest Coverage Results" MODIFIED="1661780207332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceImplTest_testDeleteCategoryByName.ic" NAME="CategoryServiceImplTest.testDeleteCategoryByName Coverage Results" MODIFIED="1662017380127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceImplTest_testFindCategoryById.ic" NAME="CategoryServiceImplTest.testFindCategoryById Coverage Results" MODIFIED="1661845950615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceImplTest_testAddCategory.ic" NAME="CategoryServiceImplTest.testAddCategory Coverage Results" MODIFIED="1661852839662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceTest_testAddBook.ic" NAME="BookServiceTest.testAddBook Coverage Results" MODIFIED="1661767783520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1661965986598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceImplTest_testAddBook.ic" NAME="CategoryServiceImplTest.testAddBook Coverage Results" MODIFIED="1661845745844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceImplTest_testUpdateBook.ic" NAME="BookServiceImplTest.testUpdateBook Coverage Results" MODIFIED="1661845019715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_testGetAllBooks.ic" NAME="BookControllerTest.testGetAllBooks Coverage Results" MODIFIED="1661769960324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceImplTest_testUpdateBookWithDtoObj.ic" NAME="BookServiceImplTest.testUpdateBookWithDtoObj Coverage Results" MODIFIED="1661845103861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceImplTest.ic" NAME="CategoryServiceImplTest Coverage Results" MODIFIED="1661847442198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceImplTest_testDeleteCategoryById.ic" NAME="CategoryServiceImplTest.testDeleteCategoryById Coverage Results" MODIFIED="1661846318107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceImplTest.ic" NAME="BookServiceImplTest Coverage Results" MODIFIED="1661853204479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceTest_testAddCategory.ic" NAME="CategoryServiceTest.testAddCategory Coverage Results" MODIFIED="1661765746104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceImplTest_testFindCategoryByName.ic" NAME="CategoryServiceImplTest.testFindCategoryByName Coverage Results" MODIFIED="1662016514378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceImplTest_testGetBooksByCategory.ic" NAME="BookServiceImplTest.testGetBooksByCategory Coverage Results" MODIFIED="1661843324487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceTest.ic" NAME="CategoryServiceTest Coverage Results" MODIFIED="1661772770609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$All_in_Blinklist.ic" NAME="All in Blinklist Coverage Results" MODIFIED="1661852582055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Blinklist$AppTest_testMain.ic" NAME="AppTest.testMain Coverage Results" MODIFIED="1661965934403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceTest_testUpdateBook.ic" NAME="BookServiceTest.testUpdateBook Coverage Results" MODIFIED="1661768829926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_testGetAllBooksByName.ic" NAME="BookControllerTest.testGetAllBooksByName Coverage Results" MODIFIED="1661702207876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceTest_testGetAllBooks.ic" NAME="BookServiceTest.testGetAllBooks Coverage Results" MODIFIED="1661767284489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_testAddBook__1_.ic" NAME="BookControllerTest.testAddBook (1) Coverage Results" MODIFIED="1661838413014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceImplTest_testFindByBookId.ic" NAME="BookServiceImplTest.testFindByBookId Coverage Results" MODIFIED="1661843056173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceTest_testFindBookById.ic" NAME="BookServiceTest.testFindBookById Coverage Results" MODIFIED="1661767162632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_getAllBooksListTest.ic" NAME="BookControllerTest.getAllBooksListTest Coverage Results" MODIFIED="1661778536840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest__1_.ic" NAME="BookControllerTest (1) Coverage Results" MODIFIED="1661782380191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$App.ic" NAME="App Coverage Results" MODIFIED="1661850271586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$com_zemosolabs_in_Blinklist.ic" NAME="com.zemosolabs in Blinklist Coverage Results" MODIFIED="1661790710485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_testUpdateBookWithBookDtoObj.ic" NAME="BookControllerTest.testUpdateBookWithBookDtoObj Coverage Results" MODIFIED="1662020509956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceImplTest_testGetAllBooks.ic" NAME="BookServiceImplTest.testGetAllBooks Coverage Results" MODIFIED="1661843520809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryControllerTest.ic" NAME="CategoryControllerTest Coverage Results" MODIFIED="1662021549248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryServiceTest_findCategoryByName.ic" NAME="CategoryServiceTest.findCategoryByName Coverage Results" MODIFIED="1661753381566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookServiceImplTest_testAddBook.ic" NAME="BookServiceImplTest.testAddBook Coverage Results" MODIFIED="1662018785804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryControllerTest_testGetCategory.ic" NAME="CategoryControllerTest.testGetCategory Coverage Results" MODIFIED="1662021727275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_testGetBooksByCategoryOnException.ic" NAME="BookControllerTest.testGetBooksByCategoryOnException Coverage Results" MODIFIED="1661687910677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_testAddBook.ic" NAME="BookControllerTest.testAddBook Coverage Results" MODIFIED="1662019367977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest_testDeleteBook.ic" NAME="BookControllerTest.testDeleteBook Coverage Results" MODIFIED="1662019786936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$CategoryControllerTest_testAddCategory.ic" NAME="CategoryControllerTest.testAddCategory Coverage Results" MODIFIED="1661769067101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Blinklist$BookControllerTest.ic" NAME="BookControllerTest Coverage Results" MODIFIED="1662021335862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zemosolabs.controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>
